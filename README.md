@@ -23,6 +23,6 @@ and run with npm
 npm start
 ```
 ## Changelog
-to see the changelog read [this](https://github.com/Devarians/linktory-frontend/changelog)
+to see the changelog read [this](https://github.com/Devarians/linktory-frontend/changelog.md)
 ## Authors
-Thanks from [contributors](https://github.com/Devarians/linktory-frontend/graphs/contributors)
+Writhen By [Arfa Maddi](https://github.com/arfrix) and [contributors](https://github.com/Devarians/linktory-frontend/graphs/contributors)
