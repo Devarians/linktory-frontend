@@ -16,7 +16,7 @@ git clone https://github.com/Devarians/linktory-frontend.git
 ```
 change directory to the project with
 ```
-cd inktory-frontend
+cd linktory-frontend
 ```
 and run with npm
 ```
