@@ -8,7 +8,7 @@ export default function HomeLayout() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header className="flex-grow-0"/>
-      <main className="container flex-grow">
+      <main className="container flex-grow flex">
         <Collections/>
         <Links/>
       </main>
