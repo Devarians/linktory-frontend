@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import { Header } from './Header';
+import Header from "../blocks/header/Header";
 
 export default {
-  title: 'Example/Header',
+  title: "Header",
   component: Header,
 };
 
 const Template = (args) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+export const DefaultHeader = Template.bind({});
+DefaultHeader.args = {
+  user: { name: "Shayan" },
 };
-
+/*
 export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+LoggedOut.args = {}; */
