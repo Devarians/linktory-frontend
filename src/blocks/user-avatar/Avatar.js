@@ -3,9 +3,14 @@ import "./Avatar.scss";
 import cn from "classnames";
 
 // wasn't sure where to create it -- feel free to move to another folder.
-function Avatar({ user, blackText, smallText }) {
+function Avatar({ user, blackText, smallText, className }) {
   return (
-    <div className="inline-flex items-center space-x-4">
+    <div
+      className={cn({
+        "inline-flex items-center space-x-4": true,
+        [className]: !!className,
+      })}
+    >
       <span
         className="
         avatar rounded-full
