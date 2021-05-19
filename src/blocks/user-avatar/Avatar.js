@@ -1,8 +1,9 @@
 import React from "react";
 import "./Avatar.scss";
+import cn from "classnames";
 
 // wasn't sure where to create it -- feel free to move to another folder.
-function Avatar({ user, blackText }) {
+function Avatar({ user, blackText, smallText }) {
   return (
     <div className="inline-flex items-center space-x-4">
       <span
@@ -15,10 +16,13 @@ function Avatar({ user, blackText }) {
         {user.name.charAt(0)}
       </span>
       <span
-        className={[
-          "capitalize text-2xl align-middle",
-          !!blackText && "text-black",
-        ]}
+        className={cn({
+          "capitalize align-middle font-medium": true,
+          "text-black": blackText,
+          "text-white": !blackText,
+          "text-sm": smallText,
+          "text-2xl": !smallText,
+        })}
       >
         {user.name}
       </span>
