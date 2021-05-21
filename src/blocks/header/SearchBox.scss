@@ -1,0 +1,26 @@
+@import "../../index.css";
+
+.wrapper {
+  border: 1px solid rgba(#dadada, 0.65);
+  border-radius: 4px;
+  height: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5rem;
+  padding: 0 0.875rem;
+  svg {
+    opacity: 0.75;
+    height: 100%;
+    fill: #dadada;
+  }
+}
+.textField {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  // TODO: i think this part could use a little help
+  width: 30vw;
+  max-width: 250px;
+  min-width: 170px;
+}
