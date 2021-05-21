@@ -1,0 +1,18 @@
+@import "../../index.css";
+
+.footer {
+  height: 88px;
+  margin: 0 1.25rem;
+  hr {
+    border-top: 1px solid rgba(16, 16, 16, 0.12);
+  }
+
+  a {
+    color: rgba(0, 150, 136, 1);
+    transition: font-size 200ms, color 200ms;
+    &:hover {
+      color: rgb(4, 136, 123);
+      font-size: 1rem;
+    }
+  }
+}
