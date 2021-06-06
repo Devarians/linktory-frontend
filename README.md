@@ -1,24 +1,28 @@
-<div dir="rtl">
-
-
-# چون دیگه نمیتونستم bookmark کروم رو تحمل کنم :/
-
-1.  یه UX فوق آشغال داره
-
-2.  دنبال یه سرچ خفن تر بودم
-
-3.  خیلی کنجکاو بودم که ببینم بقیه دارن چیا رو بوک مارک میکنن
-
-4.  میخواستم بتونم یه فولدر از بوک مارک هامو برای بقیه با یه لینک share کنم
-
-5. و ...
-
- 
-
-بله فارسی نوشتم، اگر میتونی یه readme حرفه ای بنویسی پس منتظر چی هستی، نیکی و پرسش ؟
-
-شاید کانتربیوتر فرنگی پیدا کردیم =)
-
-</div>
-
-
+# Linktory - a replacement for bookmarks
+**Why Linktory ?**
+- Better UX
+- A good search
+- Share ability
+## TODO
+- [ ] _Todo 1_
+- [ ] _Todo 2_
+- [ ] _Todo 3_
+## Contributing
+just sent PR (:
+## How to use ?
+to clone this project run
+```bash
+git clone https://github.com/Devarians/linktory-frontend.git 
+```
+change directory to the project with
+```
+cd linktory-frontend
+```
+and run with npm
+```
+npm start
+```
+## Changelog
+to see the changelog read [this](https://github.com/Devarians/linktory-frontend/changelog.md)
+## Authors
+Writhen By [Arfa Maddi](https://github.com/arfrix) and [contributors](https://github.com/Devarians/linktory-frontend/graphs/contributors)
